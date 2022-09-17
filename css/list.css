@@ -1,0 +1,39 @@
+ul {
+  padding-left: 0;
+  font-size: 0.9em;
+  list-style: none;
+}
+
+li i {
+  font-size: 0.9em;
+  margin-bottom: 4px;
+  width: 12px;
+  margin-right: 0.5em;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.profile .personal-info-list li,
+.profile .personal-info-list li a {
+  color: var(--light-red);
+  transition: color 0.15s;
+  cursor: pointer;
+}
+
+.profile .personal-info-list li:hover,
+.profile .personal-info-list li:hover a {
+  color: var(--lighter-red);
+}
+
+.profile .languages-list li {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile .languages-list li div:last-child {
+    text-align: end;
+    color: rgba(255, 255, 255, 0.6);
+}

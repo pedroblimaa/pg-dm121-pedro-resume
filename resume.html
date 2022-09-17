@@ -6,107 +6,136 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedro's Resume</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/list.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/description.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/1828b82998.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <fieldset>
-        <img src="https://avatars.githubusercontent.com/u/46970693?v=4" alt="Pedro's Picture">
-        <h1>Pedro Bonfilio</h1>
-        <br />
-        <ul>
-            <li>Email: pedroblimaa@gmail.com</li>
-            <li>Linkedin:
-                <a href="https://www.linkedin.com/in/pedro-bonfilio-lima-0693a914a/">
-                    https://www.linkedin.com/in/pedro-bonfilio-lima-0693a914a/
-                </a>
-            </li>
-            <li>Location: MG - Brazil</li>
-        </ul>
-        <br />
-        <h2>Carrer</h2>
-        <p>
-            Graduated in Automation Engineering at <a href="https://www.inatel.br/">Inatel</a> in 2021. Intern at
-            <a href="https://www.inatel.br/">Inatel</a> in software full-stack developer for 2+ years. Currently
-            working as Back-End Developer at <a href="https://www.inatel.br/">Inatel</a> providing service for
-            <a href="https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/brazil">Ericsson</a> since
-            2021.
-        </p>
-        <br />
-        <h2>Skills</h2>
-        <ul>
-            <li>Java</li>
-            <li>Python</li>
-            <li>JavaScript</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>React</li>
-            <li>Vue</li>
-            <li>Karate</li>
-            <li>Camunda</li>
-            <li>SQL</li>
-            <li>Git</li>
-            <li>Linux</li>
-        </ul>
-        <br />
-        <h2>Languages</h2>
-        <ul>
-            <li>Portuguese - Native</li>
-            <li>English - Advanced</li>
-            <li>Spanish - Basic</li>
-        </ul>
-    </fieldset>
-    <fieldset>
-        <h2>Education</h2>
-        <ul>
-            <li>Graduated in Automation Engineering at <a href="https://www.inatel.br/">Inatel</a> in 2021.</li>
-            <li>
-                Currently Studying Post-Graduation in Cloud Computing at <a href="https://www.inatel.br/">Inatel</a>.
-            </li>
-        </ul>
-        <br />
-        <h2>Experience</h2>
-        <ul>
-            <li>
-                <h3>Back-End Developer | System Specialist</h3>
-                <h4>Inatel | 2021 - Ongoing</h4>
-                <ul>
+    <div class="container">
+        <div class="content-container">
+            <fieldset class="profile">
+                <div class="profile-img-container">
+                    <img class="profile-img" src="https://avatars.githubusercontent.com/u/46970693?v=4"
+                        alt="Pedro's Picture">
+                </div>
+                <h1>Pedro Bonfilio</h1>
+                <br />
+                <ul class="personal-info-list">
+                    <li><i class="fas fa-envelope"></i><a
+                            href="mailto:pedroblimaa@gmail.com?subject=example&body=example">pedroblimaa@gmail.com</a>
+                    </li>
+                    <li><i class="fab fa-linkedin"></i><a
+                            href="https://www.linkedin.com/in/pedro-bonfilio-lima-0693a914a/">Pedro Bonfilio Lima</a>
+                    </li>
+                    <li><i class="fas fa-map-marker-alt"></i><a
+                            href="https://www.google.com/maps/place/Minas+Gerais/data=!4m2!3m1!1s0xa690a165324289:0x112170c9379de7b3?sa=X&ved=2ahUKEwjdufvbsZz6AhXWQ7gEHRq8BLUQ8gF6BAgOEAE">MG
+                            -
+                            Brazil</a></li>
+                </ul>
+                <br />
+                <h2>Carrer</h2>
+                <p>
+                    Graduated in Automation Engineering at <a href="https://www.inatel.br/">Inatel</a> in 2021.
+                    Intern
+                    at
+                    <a href="https://www.inatel.br/">Inatel</a> in software full-stack developer for 2+ years.
+                    Currently
+                    working as Back-End Developer at <a href="https://www.inatel.br/">Inatel</a> providing service
+                    for
+                    <a href="https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/brazil">Ericsson</a>
+                    since
+                    2021.
+                </p>
+                <br />
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>React</li>
+                    <li>Vue</li>
+                    <li>Karate</li>
+                    <li>Camunda</li>
+                    <li>SQL</li>
+                    <li>Git</li>
+                    <li>Linux</li>
+                </ul>
+                <br />
+                <h2>Languages</h2>
+                <ul class="languages-list">
                     <li>
-                        Back-End Developing (Java / Groovy / Karate / Camunda / Python)
-                        Code Management (Git)
-                        Agile Development (Scrum)
+                        <div>Portuguese</div>
+                        <div>Native</div>
+                    </li>
+                    <li>
+                        <div>English</div>
+                        <div>Advanced</div>
+                    </li>
+                    <li>
+                        <div>Spanish</div>
+                        <div>Basic</div>
                     </li>
                 </ul>
-            </li>
-            <li>
-                <h3>Full-Stack Developer Internship</h3>
-                <h4>Inatel | 2019 - 2021</h4>
-                <ul>
+            </fieldset>
+            <fieldset class="description">
+                <h2>Education</h2>
+                <ul class="description-item styled-list">
+                    <li>Graduated in Automation Engineering at <a href="https://www.inatel.br/">Inatel</a> in 2021.
+                    </li>
                     <li>
-                        Full-Stack Developing (PHP / Vue.js)
-                        Code Management (Git)
+                        Currently Studying Post-Graduation in Cloud Computing at <a
+                            href="https://www.inatel.br/">Inatel</a>.
                     </li>
                 </ul>
-            </li>
-        </ul>
-        <br />
-        <h2>Volunteer</h2>
-        <ul>
-            <li>
-                <h3>CTO</h3>
-                <h4>Aurem Startup | 2018 - 2019</h4>
+                <h2>Experience</h2>
                 <ul>
-                    <li>
-                        Team Management with agile development (Scrum) and problem solutions.
+                    <li class="description-item">
+                        <div class="role-company">
+                            <h3>Back-End Developer | System Specialist</h3>
+                            <h4>Inatel | 2021 - Ongoing</h4>
+                        </div>
+                        <ul class="styled-list">
+                            <li>Back-End Developing (Java / Groovy / Karate / Camunda / Python)</li>
+                            <li>Code Management (Git)</li>
+                            <li>Agile Development (Scrum)</li>
+                        </ul>
                     </li>
-                    <li>
-                        Full-Stack Developing (PHP / HTML / CSS)
-                    </li>
-                    <li>
-                        Code Management (Git)
+                    <li class="description-item">
+                        <div class="role-company">
+                            <h3>Full-Stack Developer Internship</h3>
+                            <h4>Inatel | 2019 - 2021</h4>
+                        </div>
+                        <ul>
+                            <li>Full-Stack Developing (PHP / Vue.js)</li>
+                            <li>Code Management (Git)</li>
+                        </ul>
                     </li>
                 </ul>
-            </li>
-    </fieldset>
+                <h2>Volunteer</h2>
+                <ul class="description-text">
+                    <li class="description-item">
+                        <div class="role-company">
+                            <h3>CTO</h3>
+                            <h4>Aurem Startup | 2018 - 2019</h4>
+                        </div>
+                        <ul class="styled-list">
+                            <li>Team Management with agile development (Scrum) and problem solutions.</li>
+                            <li>Full-Stack Developing (PHP / HTML / CSS)</li>
+                            <li>Code Management (Git)</li>
+                        </ul>
+                    </li>
+            </fieldset>
+        </div>
+        <div id="particles-js"></div>
+    </div>
+    <script src="./background/particles.js"></script>
+    <script src="./background/app.js"></script>
 </body>
 
 </html>

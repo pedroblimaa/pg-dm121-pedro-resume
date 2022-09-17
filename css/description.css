@@ -1,0 +1,52 @@
+.description h2 {
+  color: var(--standard-red);
+  margin-bottom: 0;
+}
+
+.description a {
+  color: var(--standard-red);
+}
+
+.description li h3 {
+  color: var(--color-grey);
+}
+
+.description li h4 {
+  color: var(--color-light-grey);
+}
+
+.role-company {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.role-company h4 {
+  margin-left: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .role-company {
+    display: block;
+  }
+
+  .role-company h4 {
+    margin-left: auto;
+  }
+}
+
+.description-item {
+  padding: 10px;
+}
+
+.description .styled-list {
+  margin-left: 1em;
+}
+
+.description .styled-list li::before {
+  content: '\2022';
+  color: var(--standard-red);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
