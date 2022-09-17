@@ -20,14 +20,14 @@
 }
 
 h1 {
-  font-size: calc(16px + 0.8vw);
+  font-size: calc(22px + 0.4vw);
   font-weight: 300;
   margin: 0;
   padding: 0;
 }
 
 h2 {
-  font-size: calc(11px + 0.55vw);
+  font-size: calc(18px + 0.2vw);
   font-weight: 300;
   margin: 0;
   padding: 0;
@@ -36,21 +36,21 @@ h2 {
 }
 
 h3 {
-  font-size: calc(12px + 0.2vw);
+  font-size: calc(14px + 0.1vw);
   font-weight: 600;
   margin: 0;
   padding: 0;
 }
 
 h4 {
-  font-size: calc(9px + 0.3vw);
+  font-size: calc(13px + 0.05vw);
   font-weight: 300;
   margin: 0;
   padding: 0;
 }
 
 p, li {
-  font-size: calc(8px + 0.25vw);
+  font-size: calc(12px + 0.05vw);
 }
 
 fieldset {
@@ -67,9 +67,8 @@ fieldset {
 
 .content-container {
   z-index: 2;
-  width: calc(500px + 30%);
+  width: calc(600px + 10%);
   min-width: 400px;
-  max-width: 750px;
   display: grid;
   grid-template-columns: 1fr 3fr;
 }
